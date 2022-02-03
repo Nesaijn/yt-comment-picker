@@ -19,7 +19,7 @@ args = parser.parse_args()
 url = args.url
 
 # Check if the given URL is valid or not
-regex = ("^((http|https)://)?(www.)?youtube.(de|com)/watch\?v=")
+regex = ("^((http|https)://)?(www.)?youtu(.be|be.de|be.com)/")
 pattern = re.compile(regex)
 
 valid = pattern.match(url)
