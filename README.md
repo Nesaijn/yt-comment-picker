@@ -1,4 +1,4 @@
-# yt-comment-picker
+# yt-raffle
 PoC of a random YouTube comment picker for a raffle.
 
 Build using Selenium.
